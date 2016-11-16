@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="~/loginPage.aspx" title="Root"  description="">
+        
+      <siteMapNode url="~/Admin/Admin.aspx" title="Admin page"  description="Admin page">
+        <siteMapNode url="Admin/Add_account.aspx" title="Add Account"  description="Add newuser account" />
+        <siteMapNode url="Admin/interest_change.aspx" title="Interest-Charge"  description="Interest" />
+        <siteMapNode url="Admin/Debit_req.aspx" title="Debit request"  description="Accept Debit Request" />
+      </siteMapNode>
+      <siteMapNode url="~/Home.aspx" title="Home"  description="Home page">
+        <siteMapNode url="Statement.aspx" title="Statement"  description="Monthly statement" />
+        <siteMapNode url="Ch_pwd.aspx" title="Change password"  description="Change your password" />
+        <siteMapNode url="User_detail.aspx" title="Details"  description="View details" />
+        <siteMapNode url="Loan_req.aspx" title="Loan Request"  description="Request for loan" />
+        <siteMapNode url="Registration_page.aspx" title="Change Details"  description="Change your Details" />
+        <siteMapNode url="Transaction.aspx" title="Transaction"  description="Make Transaction" />
+        <siteMapNode url="Debit_req.aspx" title="Debit Request"  description="Make Debit request" />
+      </siteMapNode>
+    </siteMapNode>
+    
+</siteMap>

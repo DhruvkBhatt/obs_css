@@ -1,0 +1,81 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site3.master.cs" Inherits="project_S_E.Site3" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Online banking System </title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="default.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+        .auto-style1 {
+            width: 845px;
+        }
+        .auto-style2 {
+            width: 800px;
+            height: 250px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="header">
+	    <div id="logo">
+		    <h1>ONLINE BANKING SYSTEM</h1>
+	    </div>
+	    <div id="menu">
+		    <asp:ContentPlaceHolder ID="Contentmanu" runat="server">
+        
+            </asp:ContentPlaceHolder>
+	    </div>
+    </div>
+    <div id="page" class="auto-style1">
+        <table class="auto-style2">
+            <tr>
+                <!--<td>
+                    <div id="left">
+                        <asp:TreeView ID="TreeView1" runat="server" DataSourceID="SiteMapDataSource2"></asp:TreeView>     
+                    </div>
+                </td>-->
+               <td>
+                    <div id="content">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+                   </div>
+                </td>
+                <!--<td>
+                    <div id="plans">
+                           <div id="sidebar">
+		                    <div id="news" class="boxed">
+			                    <h2 class="title" style="height: 34px">Bank News &amp; Plans</h2>
+			                        <div class="content">
+				                        <ul>
+					                        <li class="first">
+						                        <h3>ad1</h3>
+						                        <p><a href="#">djgn&hellip;</a></p>
+					                        </li>
+					                        <li>
+						                        <h3>ad2</h3>
+						                        <p><a href="#">Donec leo, vivamus fermentum nibh in augue&hellip;</a></p>
+					                        </li>
+					                        <li>
+						                        <h3>ad3</h3>
+						                        <p><a href="#">Quisque dictum integer nisl risus sagittis&hellip;</a></p>
+					                        </li>
+				                        </ul>
+			                        </div>
+		                    </div>
+	                   </div
+	                        <!-- end sidebar -->
+	                    <!--<div style="clear: both;">&nbsp;</div>                    
+
+                    </div>
+                </td>-->
+            </tr>
+        </table>
+    </div>
+    <div id="footer"></div>
+</form>
+</body>
+</html>
+
